@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify :: Imersão Alura</title>
-      
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/playlist.css">
+        <link rel="stylesheet" href="css/media.css">
       
         <!-- Links para trazer os ícones via CDN -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -70,9 +72,47 @@
             </div>
         </div>
     </div>    
-       
 
-        
-    </div>
+         <!--PESQUISA E LOGIN-->
+
+    <main>
+        <div class="main-container">
+            <nav class="main-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="assets/icons/small-right.png" alt="seta direita">
+                    </button>
+                </div>
+                
+                 
+                <div class="main-search"> <!--campo de busca-->
+                    <img src="assets/icons/search.png" alt="busca">
+                     <input id="search-input" tyle="text" maxlength="140"
+                      placeholder="O que você quer ouvir?">
+                </div>
+
+                <div class="main-login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+
+            </nav>
+        </div>
+    </main>
+
+
+    <footer class="spot_premium">
+        <div class="text_footer">
+            <span class="title_footer"> TESTAR O PREMIUM DE GRAÇA</span>
+            <span class="subtitle_footer">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. 
+            Não precisa de cartão de crédito</span>
+        </div>
+         <button class="button_footer">Inscreva-se grátis</button>   
+    </footer>
+
+
 </body>
 </html>

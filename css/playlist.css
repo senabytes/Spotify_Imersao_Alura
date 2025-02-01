@@ -101,9 +101,15 @@
   }
 
 
+  .artist-card .sessao{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
   /*container de cards*/
   .artist-card {
-    background: #181818;
+    background: #000;
     border-radius: 8px;
     padding: 16px;
     position: relative; 

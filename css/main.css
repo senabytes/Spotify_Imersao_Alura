@@ -1,6 +1,6 @@
 .main-container{
-    max-width: 80vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     margin-left: 320px;
     margin-right: 56px;
 }

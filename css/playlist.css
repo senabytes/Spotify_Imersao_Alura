@@ -101,11 +101,14 @@
   }
 
 
-  .artist-card .sessao{
+  .sessao{
     color: #fff;
     font-weight: 700;
     font-size: 25px;
+    margin-left: 50px !important;
+   
   }
+
 
   /*container de cards*/
   .artist-card {

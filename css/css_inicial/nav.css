@@ -91,14 +91,20 @@
 }
 
 .main-login .login{
-    width: 100px;
-    height: 48px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
     color: #000;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 12px;
     font-weight: 700;
-    border-radius: 48px;
-    border: none;
-    transition: 0.3s ease;
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 10px;
+    border: 0;
+    width: 113px;
+    transition:  0.3s ease;
+    
 }
 
 .main-login .login:hover{

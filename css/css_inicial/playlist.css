@@ -112,7 +112,7 @@
 
   /*container de cards*/
   .artist-card {
-    background: #000;
+    background-color: #121212;
     border-radius: 8px;
     padding: 16px;
     position: relative; 

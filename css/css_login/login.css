@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    background-color: #000;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+       
+
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 50vw;
+    height: fit-content;
+    max-width: auto;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+#log-text{
+    color:#fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+
+.links li a {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align: center;
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid#fff;
+   border-radius: 25px;
+   cursor: pointer;
+   text-decoration: none;
+   width: 250px;
+   height: 40px;
+   margin: 10px 0px 8px;
+   padding:  5px 10px;
+   
+}
+
+
+
+.divider {
+    border: 0;
+    border: 0.4px solid #ccc; /* Cria uma linha fininha */
+    margin: 32px 0; /* Espaço acima e abaixo da linha */
+    width: 200px;
+    border-radius: 8px;
+    opacity: 30%;
+  }
+  
+
+  .dados span{
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+
+
+  }
+
+  .dados input{
+    display: flex;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid #B3B3B3;
+    padding: 12px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .confirm{
+    background-color: #1ED760 ;
+    padding: 8px 24px;
+    border-radius: 25px;
+    width: 270px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .sign-forgot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sign-forgot #forgot-password{
+        color: #fff;
+        margin: 20px;
+        font-size: 12px;
+  }
+
+
+  .sign-forgot p{
+    color: #B3B3B3;
+    font-size: 11px;
+  }
+
+  .sign-forgot #create-acc{
+    color: #fff;
+    font-size: 12px;
+    margin: 5px 0 60px;
+
+  }
+

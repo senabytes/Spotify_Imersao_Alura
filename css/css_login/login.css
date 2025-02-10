@@ -80,6 +80,7 @@ body {
 }
 
 .dados input {
+    color: #fff;
     display: flex;
     text-align: left;
     background-color: transparent;
